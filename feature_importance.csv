@@ -1,0 +1,16 @@
+feature,importance
+grade,0.421114
+sub_grade,0.12421381
+term,0.046092514
+pymnt_plan_y,0.021653237
+home_ownership_MORTGAGE,0.019227246
+initial_list_status_w,0.018980097
+int_rate,0.017081065
+mort_acc,0.016533442
+home_ownership_RENT,0.014380382
+acc_open_past_24mths,0.012174724
+purpose_small_business,0.011318364
+num_actv_rev_tl,0.011102074
+application_type_Joint App,0.010885299
+disbursement_method_DirectPay,0.01019638
+verification_status_Source Verified,0.008893595
