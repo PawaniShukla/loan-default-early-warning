@@ -9,11 +9,11 @@ import seaborn as sns
 st.set_page_config(page_title="Loan Default Early Warning System", layout="wide")
 
 # Load model and files
-model = joblib.load("xgb_model.pkl")
-feature_names = joblib.load("feature_names.pkl")
-grade_summary = pd.read_csv("grade_summary.csv")
-dti_summary = pd.read_csv("dti_summary.csv")
-feature_importance = pd.read_csv("feature_importance.csv")
+model = joblib.load("models/xgb_model.pkl")
+feature_names = joblib.load("models/feature_names.pkl")
+grade_summary = pd.read_csv("data/grade_summary.csv")
+dti_summary = pd.read_csv("data/dti_summary.csv")
+feature_importance = pd.read_csv("data/feature_importance.csv")
 
 # Title
 st.title("🏦 Loan Default Early Warning System")
